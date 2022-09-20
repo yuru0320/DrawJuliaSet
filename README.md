@@ -23,7 +23,8 @@ QEMU Raspberry Pi Simulator
 ## 程式說明
 ### name函數功能說明 :
 
-#### 功能 :印出組別及組員姓名
+#### 功能 :
+印出組別及組員姓名
 
 #### 程式設計 : 
 
@@ -37,7 +38,8 @@ QEMU Raspberry Pi Simulator
 
 ### id函數功能說明 :
 
-#### 功能 :印出組員學號並通過使用者輸入指令 'p' 印出學號加總值 
+#### 功能 :
+印出組員學號並通過使用者輸入指令 'p' 印出學號加總值 
 
 #### 程式設計 : 
 
@@ -52,7 +54,8 @@ QEMU Raspberry Pi Simulator
 
 ### DrawJuilaSet函數功能說明:
 
-#### 功能:  透過計算決定 Frame 二維陣列的長寬與陣列裡每個元素的值，以此決定回傳至main後Frame Buffer上的 Pixel 顏色。
+#### 功能:  
+透過計算決定 Frame 二維陣列的長寬與陣列裡每個元素的值，以此決定回傳至main後Frame Buffer上的 Pixel 顏色。
 
 #### 程式設計 : 
 
@@ -61,7 +64,8 @@ QEMU Raspberry Pi Simulator
   (b) 使用 (ldr ,=參數值 str 暫存器,[暫存器]) 存取main傳入之參數值 
   
 ### Main函數功能說明
-#### 功能: 呼叫前述name，id，DrawJuilaSet 三個函數，輸出前兩支函數的分項功能，由迴圈配合呼叫DrawJuilaSet函數輸出繪製動畫，最後使用 name與id所記錄的資料，輸出完整的組別、組員資訊與組員學號。
+#### 功能: 
+呼叫前述name，id，DrawJuilaSet 三個函數，輸出前兩支函數的分項功能，由迴圈配合呼叫DrawJuilaSet函數輸出繪製動畫，最後使用 name與id所記錄的資料，輸出完整的組別、組員資訊與組員學號。
 
 #### 程式設計 : 
  (a) 由C語言撰寫。 
@@ -76,6 +80,7 @@ QEMU Raspberry Pi Simulator
 
 ### JuliaSet初始畫面:
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/95215851/191271542-d2a3da1d-e809-4f7e-b54b-7c22187b7476.png">
+
 ### JuliaSet結束畫面:
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/95215851/191271643-5b42cc74-5b71-474e-8c05-7d3d44039d68.png">
 
