@@ -1,26 +1,26 @@
 # DrawJuliaSet
 
-# 開發平台
+## 開發平台
 Window 10
 
-# 開發環境
+## 開發環境
 QEMU Raspberry Pi Simulator
 
 此軟體可模擬Raspberry Pi的硬體功能，並搭配Raspbian作業系統與其他需要的工具或程式開發環境，以進行ARM組合語言程式與C語言程式之組譯、編譯、與除錯。
 
-# 說明
+## 說明
 本project之主程式main由c語言撰寫，包含三個ARM組合語言函數name，id和DrawJuliaSet，共同構成能列印出組別、組員姓名、組員學號、組員學號加總與繪製 Julia Set 動態畫面程式，學號部分設計為可手動輸入學生學號，再將學號加總，輸出成summation，按下 p 鍵後，由 drawJuliaSet 函數與 main 函數，進行計算並完整畫出 Julia Set 動態畫面。透過 name 函數與 id 函數的回傳資料，最後印出整合組別、學號、姓名於最後一個畫面。 
 專題需要掌握組合語言記憶體配置的方式、二維陣列位置的計算。 
 
-# 使用流程
+## 使用流程
 1.編譯 : gcc main.c id.s name.s drawJuliaSet.s -o out
 
 2.執行 : ./out
 
-# 執行方法
+## 執行方法
 將此project分4成個檔案來寫，分別為name.s、id.s，DrawJuilaSet.s，main.c，在main中呼叫name、id 與DrawJuilaSet。  
 
-# 程式說明
+## 程式說明
 ### name函數功能說明 :
 
 (1) 功能 :印出組別及組員姓名
@@ -72,7 +72,7 @@ QEMU Raspberry Pi Simulator
  
  (d) 應用 name與id函數所記錄的資料，輸出完整的組別、組員資訊與組員學號數值計算結果。
  
-# 程式執行結果
+## 程式執行結果
 
 ### JuliaSet初始畫面:
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/95215851/191271542-d2a3da1d-e809-4f7e-b54b-7c22187b7476.png">
